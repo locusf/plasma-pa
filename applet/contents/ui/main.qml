@@ -158,11 +158,11 @@ Item {
                 Layout.minimumHeight: contentHeight
                 Layout.maximumHeight: contentHeight
 
-                model: SinkModel {
+                model: SinkInputModel {
                     id: sinkModel
                 }
                 boundsBehavior: Flickable.StopAtBounds;
-                delegate: SinkListItem {}
+                delegate: SinkInputListItem {}
             }
 
             Header {
